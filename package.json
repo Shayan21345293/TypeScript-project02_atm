@@ -1,0 +1,23 @@
+{
+  "name": "shaya9-atm",
+  "version": "1.1.3",
+  "description": "this is a atm machine code",
+  "main": "index.js",
+  "type": "module",
+  "bin": "main.js",
+  "types": "module",
+  "publishConfig": {
+    "access": "public"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "shayan",
+  "license": "MIT",
+  "dependencies": {
+    "inquirer": "^9.2.16"
+  },
+  "devDependencies": {
+    "@types/inquirer": "^9.0.7"
+  }
+}
